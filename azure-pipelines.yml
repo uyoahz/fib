@@ -10,8 +10,6 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: sh fib.sh
-  displayName: 'Run a one-line script'
 
 - task: Bash@3
   inputs:
